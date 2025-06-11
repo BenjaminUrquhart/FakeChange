@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FakeChangePatcher": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Program Files (x86)\\Steam\\steamapps\\common\\DELTARUNE - Copy\""
+    }
+  }
+}
