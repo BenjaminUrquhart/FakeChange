@@ -46,7 +46,8 @@ void init() {
 	if(!file) {
 		perror("fopen()");
 		fprintf(stderr, "Data file not found.");
-		return;
+		exit(1);
+		//return;
 	}
 	// Get pointer to game save folder name
 	fseek(file, 0x14, SEEK_SET);

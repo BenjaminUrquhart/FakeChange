@@ -10,10 +10,14 @@ You only need to run the patcher once per update.
 Most likely, your save files will be within the DELTARUNE folder instead of the normal save location. If you're having trouble with saves not saving or going to the wrong place, this is why.
 
 
-IMPORTANT: For use in libTAS, you must remove the CAP_CHECKPOINT_RESTORE flag from the libTAS binary as having it enables secure mode for the process which stops me from loading my native library.
+IMPORTANT: For use in libTAS, you must remove the CAP_CHECKPOINT_RESTORE flag from the libTAS binary as having it enables secure mode for the process which stops me from loading my native library. The provided script should do it for you.
 
 Version History:
-- 1.1:
+- 1.01a:
+	- libtas.sh now removes CAP_CHECKPOINT_RESTORE for you.
+	- gcc should no longer be required to run the patcher.
+	- Better error logging.
+- 1.01:
 	- Fixed libtas.sh.
 	- Preserve command-line arguments when starting chapters.
 	- Added basic support for in-place patching for future updates.
